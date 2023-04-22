@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TRY-DES</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -20,7 +24,10 @@
       <!-- Hero -->
       <section class="herro">
         <button>Boutton</button>
-        <p>
+        <p
+          class="animate__animated animate__rubberBand hero-text wow"
+          data-wow-delay="3s"
+        >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
           deserunt illum in ullam tenetur quaerat adipisci aliquid ab,
           doloremque velit aut alias minima? Voluptates, ullam esse corporis
@@ -41,5 +48,9 @@
         reiciendis amet adipisci consequuntur sed veritatis nemo nobis facilis.
       </p>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
