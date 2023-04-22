@@ -1,15 +1,22 @@
 .header {
-    padding: 200px 0;
-    background-color: aqua;
+  padding: 200px 0;
+  background-color: aqua;
 }
 .herro {
-    background-color: blueviolet;
-    padding-top: 25px;
+  margin-top: 600px;
+  background-color: blueviolet;
+  padding: 100px;
+  text-align: center;
 }
 
 .footer {
-    padding: 100px 0;
-    background-color: crimson;
+  padding: 100px 0;
+  background-color: crimson;
 }
 
-
+.hero-text {
+  width: 300px;
+  margin: 0 auto;
+  font-size: larger;
+  color: aliceblue;
+}
